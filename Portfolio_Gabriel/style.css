@@ -1,31 +1,29 @@
 body {
-  background: #222;
-  color: #fff;
-  font-family: 'Press Start 2P', monospace;
+  background: black;
+  color: cyan;
+  font-family: monospace;
   margin: 0;
   padding: 0;
 }
 
 header {
   background: #111;
-  border-bottom: 4px solid #00ffe7;
+  border-bottom: 3px solid cyan;
   text-align: center;
-  padding: 2rem 0 1rem 0;
-  box-shadow: 0 4px 0 #00ffe7, 0 8px 0 #fff;
+  padding: 20px 0 10px 0;
 }
 
 .titulo h1 {
-  color: #00ffe7;
-  font-size: 2rem;
+  color: cyan;
+  font-size: 20px;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 0 #000, 4px 4px 0 #00ffe7;
+  text-shadow: 2px 2px 0 #000, 2px 2px 0 cyan;
   margin: 0;
 }
 
 nav {
-  background: #333;
-  border-bottom: 2px solid #00ffe7;
-  box-shadow: 0 2px 0 #00ffe7;
+  background: #222;
+  border-bottom: 2px solid cyan;
 }
 
 nav ul {
@@ -37,64 +35,58 @@ nav ul {
 }
 
 nav li {
-  margin: 0 1rem;
+  margin: 0 10px;
 }
 
 nav a {
-  color: #fff;
+  color: cyan;
   text-decoration: none;
-  padding: 0.5rem 1.5rem;
-  background: #222;
-  border: 2px solid #00ffe7;
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: background 0.2s, color 0.2s;
-  box-shadow: 2px 2px 0 #00ffe7;
+  padding: 5px 15px;
+  background: black;
+  border: 1px solid cyan;
+  border-radius: 4px;
+  font-size: 12px;
 }
 
 nav a:hover {
-  background: #00ffe7;
-  color: #222;
+  background: cyan;
+  color: black;
 }
 
 main {
-  max-width: 600px;
-  margin: 2rem auto;
+  max-width: 500px;
+  margin: 20px auto;
   background: #111;
-  border: 4px solid #00ffe7;
-  border-radius: 16px;
-  padding: 2rem;
-  box-shadow: 0 8px 0 #00ffe7;
+  border: 2px solid cyan;
+  border-radius: 8px;
+  padding: 20px;
 }
 
 .boton button {
   display: block;
   width: 100%;
-  margin: 1rem 0;
-  padding: 1rem;
-  background: #222;
-  color: #00ffe7;
-  border: 3px solid #00ffe7;
-  border-radius: 8px;
-  font-family: 'Press Start 2P', monospace;
-  font-size: 1rem;
+  margin: 10px 0;
+  padding: 10px;
+  background: black;
+  color: cyan;
+  border: 2px solid cyan;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 12px;
   cursor: pointer;
-  box-shadow: 2px 2px 0 #00ffe7;
-  transition: background 0.2s, color 0.2s;
 }
 
 .boton button:hover {
-  background: #00ffe7;
-  color: #222;
+  background: cyan;
+  color: black;
 }
 
-.boton p {
-  background: #222;
-  color: #fff;
-  border: 2px dashed #00ffe7;
-  border-radius: 8px;
-  padding: 1rem;
-  margin: 0.5rem 0 1.5rem 0;
-  font-size: 0.9rem;
-  box-shadow: 2px 2px 0 #00ffe7;
+.boton p, .boton div {
+  background: black;
+  color: cyan;
+  border: 1px dashed cyan;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  font-size: 11px;
 }
