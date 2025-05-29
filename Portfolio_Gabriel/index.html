@@ -7,14 +7,28 @@
   <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+<header>
+<div class="titulo">
+    <h1>Welcome to my portfolio</h1>
+</div>
+</header>
 <nav>
     <ul>
         <li><a href="index.html">Inicio</a></li>
         <li><a href="index2.html">Proyectos</a></li>
     </ul>
 </nav>
+
 <main>
-    <p>hola</p>
+    <div class="boton" >
+    <button onclick="mostrarMensaje()">Personal details</button>
+        <p id="details" style="display: none;">hello</p>
+    <button onclick="mostrarMensaje()">Perosnal statement</button>
+    <button onclick="mostrarMensaje()">Education</button>
+    <button onclick="mostrarMensaje()">Work experience</button>
+    <button onclick="mostrarMensaje()">Skills</button>
+    </div>
 </main>
+<script src="scrpit.js"></script>
 </body>
 </html>
