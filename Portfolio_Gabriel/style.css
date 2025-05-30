@@ -116,3 +116,34 @@ main {
   background: #00ffff;
   border: 1px solid #222;
 }
+.bloques{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.bloque{
+  background: #222;
+  border: 2px solid #00ffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  color: #00ffff;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+
+.bloque:hover{
+  box-shadow: 0 0 12px #00ffff88;
+}
+
+.img-bloque{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #00ffff;
+  margin-top: 12px;
+  background: #111;
+}
