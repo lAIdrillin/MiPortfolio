@@ -23,6 +23,7 @@ header {
 nav {
   background: #222;
   border-bottom: 1px solid #00ffff;
+  padding: 18px 0;
 }
 
 nav ul {
@@ -34,14 +35,16 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 18px;
 }
 
 nav a {
   color: #00ffff;
   text-decoration: none;
+  padding: 12px 24px;
   padding: 6px 14px;
   border-radius: 6px;
+  font-size: 20px;
   transition: background 0.2s;
 }
 
@@ -82,7 +85,7 @@ main {
 .boton p, .boton div {
   background: #222;
   color: #00ffff;
-  border: 1px dashed #00ffff;
+  /*border: 1px dashed #00ffff;*/
   border-radius: 6px;
   padding: 10px;
   margin: 8px 0 15px 0;
@@ -151,4 +154,33 @@ main {
   border: 1px solid #00ffff;
   margin-top: 12px;
   background: #111;
+}
+.detalle-personal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+}
+
+.foto-perfil {
+  width: 48%;
+  max-width: 220px;
+  min-width: 140px;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00ffff;
+  background: #111;
+  display: block;
+}
+
+.detalle-personal ul {
+  width: 52%;
+  margin: 0;
+  padding: 0 0 0 18px;
+  list-style: disc;
+  color: #00ffff;
+  font-size: 1.1em;
 }
