@@ -1,6 +1,6 @@
 body {
-  background: black;
-  color: cyan;
+  background: #222;
+  color: #00ffff;
   font-family: monospace;
   margin: 0;
   padding: 0;
@@ -8,85 +8,83 @@ body {
 
 header {
   background: #111;
-  border-bottom: 3px solid cyan;
+  color: #00ffff;
   text-align: center;
-  padding: 20px 0 10px 0;
+  padding: 20px 0;
+  border-bottom: 2px solid #00ffff;
 }
 
 .titulo h1 {
-  color: cyan;
-  font-size: 20px;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 0 #000, 2px 2px 0 cyan;
   margin: 0;
+  font-size: 22px;
+  letter-spacing: 2px;
 }
 
 nav {
   background: #222;
-  border-bottom: 2px solid cyan;
+  border-bottom: 1px solid #00ffff;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
   margin: 0;
-  display: flex;
-  justify-content: center;
+  padding: 0;
+  text-align: center;
 }
 
 nav li {
+  display: inline-block;
   margin: 0 10px;
 }
 
 nav a {
-  color: cyan;
+  color: #00ffff;
   text-decoration: none;
-  padding: 5px 15px;
-  background: black;
-  border: 1px solid cyan;
-  border-radius: 4px;
-  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: background 0.2s;
 }
 
 nav a:hover {
-  background: cyan;
-  color: black;
+  background: #00ffff;
+  color: #222;
 }
 
 main {
-  max-width: 500px;
-  margin: 20px auto;
   background: #111;
-  border: 2px solid cyan;
-  border-radius: 8px;
+  /*max-width: 700px;*/
+  width: 90vw;
+  margin: 30px auto;
   padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #00ffff;
 }
 
 .boton button {
-  display: block;
   width: 100%;
   margin: 10px 0;
   padding: 10px;
-  background: black;
-  color: cyan;
-  border: 2px solid cyan;
-  border-radius: 4px;
+  background: #222;
+  color: #00ffff;
+  border: 2px solid #00ffff;
+  border-radius: 6px;
   font-family: monospace;
-  font-size: 12px;
+  font-size: 14px;
   cursor: pointer;
+  transition: background 0.2s;
 }
 
 .boton button:hover {
-  background: cyan;
-  color: black;
+  background: #00ffff;
+  color: #222;
 }
 
 .boton p, .boton div {
-  background: black;
-  color: cyan;
-  border: 1px dashed cyan;
-  border-radius: 4px;
+  background: #222;
+  color: #00ffff;
+  border: 1px dashed #00ffff;
+  border-radius: 6px;
   padding: 10px;
-  margin: 5px 0 15px 0;
-  font-size: 11px;
+  margin: 8px 0 15px 0;
+  font-size: 13px;
 }
