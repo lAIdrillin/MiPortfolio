@@ -88,3 +88,31 @@ main {
   margin: 8px 0 15px 0;
   font-size: 13px;
 }
+.final ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.final li {
+  display: inline-block;
+}
+
+.final a img {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  border-radius: 6px;
+  border: 1px solid #00ffff;
+  background: #222;
+  transition: background 0.2s, border 0.2s;
+  margin-right: 6px;
+}
+
+.final a:hover img {
+  background: #00ffff;
+  border: 1px solid #222;
+}
