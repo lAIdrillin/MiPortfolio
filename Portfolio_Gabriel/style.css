@@ -155,6 +155,23 @@ main {
   margin-top: 12px;
   background: #111;
 }
+.bloque button{
+  background: #222;
+  color: #00ffff;
+  border: 2px solid #00ffff;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 10px 22px;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.bloque button:hover{
+  background: #00ffff;
+  color: #222;
+  border: 2px solid #00ffff;
+}
 .detalle-personal {
   display: flex;
   align-items: center;
