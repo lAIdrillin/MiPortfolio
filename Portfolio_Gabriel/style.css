@@ -234,25 +234,25 @@ body {
 }
 
 .detalle-proyecto-contenido .img-bloque {
-  width: 180px;
-  height: 180px;
+  width: 650px;
+  height: 650px;
   border-radius: 16px;
-  margin: 18px 0;
-  object-fit: cover;
-  border: 2px solid #00ffff;
+  margin: 2px 0;
+  object-fit: contain;
+  border:none;
   background: #111;
 }
 
 .detalle-proyecto-contenido h2 {
   color: #00ffe7;
   font-size: 2em;
-  margin-bottom: 12px;
+  margin-bottom: 2px;
 }
 
 .detalle-proyecto-contenido p {
   font-size: 1.15em;
   color: #00ffe7;
-  margin-bottom: 12px;
+  margin-bottom: 2px;
 }
 
 .detalle-proyecto-contenido button {
