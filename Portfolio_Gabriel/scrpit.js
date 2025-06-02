@@ -46,6 +46,68 @@ function volverAProyectos(){
     document.getElementById('detalle-proyecto').style.display = 'none';
     document.querySelector('.bloques').style.display = 'flex';
 }
+function cambiarIdioma(idioma) {
+  const textos = {
+    en: {
+      titulo: "Welcome to my portfolio",
+      navInicio: "Home",
+      navProyectos: "Projects",
+      btnDetails: "Personal details",
+      btnStatement: "Personal statement",
+      btnEducation: "Education",
+      btnWork: "Work experience",
+      btnSkills: "Skills",
+      name: "Name: Gabriel Gutierrez Castro",
+      mail: "Mail: ",
+      number: "Personal number: ",
+      personal: "hello",
+      edu1: "First Year in Higher Web Developer Technician",
+      edu2: "Technician in Comercial Activities",
+      work1: "I have been interning in a clothing store for 2 months",
+      work2: "Six weeks of interning as part of my vocational training program",
+      skills: "hello",
+      footer: "Gabriel Gutierrez Castro. All rights are reserved"
+    },
+    es: {
+      titulo: "Bienvenido a mi portafolio",
+      navInicio: "Inicio",
+      navProyectos: "Proyectos",
+      btnDetails: "Datos personales",
+      btnStatement: "Perfil personal",
+      btnEducation: "Educación",
+      btnWork: "Experiencia laboral",
+      btnSkills: "Habilidades",
+      name: "Nombre: Gabriel Gutierrez Castro",
+      mail: "Correo: ",
+      number: "Teléfono: ",
+      personal: "hola",
+      edu1: "Primer año en Técnico Superior en Desarrollo Web",
+      edu2: "Técnico en Actividades Comerciales",
+      work1: "He estado de prácticas en una tienda de ropa durante 2 meses",
+      work2: "Seis semanas de prácticas como parte de mi formación profesional",
+      skills: "hola",
+      footer: "Gabriel Gutierrez Castro. Todos los derechos reservados"
+    }
+  };
 
+  document.querySelector('h1').innerText = textos[idioma].titulo;
+  document.querySelectorAll('nav ul li a')[0].innerText = textos[idioma].navInicio;
+  document.querySelectorAll('nav ul li a')[1].innerText = textos[idioma].navProyectos;
+  document.getElementById('btnDetails').innerText = textos[idioma].btnDetails;
+  document.getElementById('btnStatement').innerText = textos[idioma].btnStatement;
+  document.getElementById('btnEducation').innerText = textos[idioma].btnEducation;
+  document.getElementById('btnWork').innerText = textos[idioma].btnWork;
+  document.getElementById('btnSkills').innerText = textos[idioma].btnSkills;
+  document.getElementById('name').innerText = textos[idioma].name;
+  document.getElementById('mail').innerText = textos[idioma].mail;
+  document.getElementById('number').innerText = textos[idioma].number;
+  document.getElementById('personal').innerText = textos[idioma].personal;
+  document.getElementById('edu1').innerText = textos[idioma].edu1;
+  document.getElementById('edu2').innerText = textos[idioma].edu2;
+  document.getElementById('work1').innerText = textos[idioma].work1;
+  document.getElementById('work2').innerText = textos[idioma].work2;
+  document.getElementById('skills').innerText = textos[idioma].skills;
+  document.getElementById('footer-text').innerText = textos[idioma].footer;
+}
 
 
