@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📃curriculum📃</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<header>
+<div class="titulo">
+    <img src="images/b38fc63ba586ac8b38cb406ed612aa98.jpg" alt="foto" class="foto-perfil">
+    <h1>Welcome to my portfolio</h1>
+    <div class="idioma-selector">
+        <button onclick="cambiarIdioma('es')">🇪🇸</button>
+        <button onclick="cambiarIdioma('en')">🇬🇧</button>
+    </div>
+</div>
+</header>
+<nav>
+    <ul>
+        <li><a id="nav-inicio" href="index.html">Inicio</a></li>
+        <li><a id="nav-proyectos" href="index2.html">Proyectos</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div class="boton" >
+    <button id="btnDetails" onclick="mostrarMensaje('details')">Personal details</button>
+        <div id="details" style="display: none;">
+            <ul>
+                <li id="name">Name: Gabriel Gutierrez Castro</li>
+                <li id="mail">Mail: </li>
+                <li id="number">Personal number: </li>
+            </ul>
+        </div>
+    <button id="btnStatement" onclick="mostrarMensaje('personal')">Personal statement</button>
+        <p id="personal" style="display: none;">hello</p>
+    <button id="btnEducation" onclick="mostrarMensaje('education')">Education</button>
+        <div id="education" style="display: none;">
+            <ul>
+                <li id="edu1">First Year in Higher Web Developer Technician</li>
+                <li id="edu2">Technician in Comercial Activities</li>
+            </ul>
+        </div>
+    <button id="btnWork" onclick="mostrarMensaje('work')">Work experience</button>
+        <div id="work" style="display: none;">
+            <ul>
+                <li id="work1">I have been interning in a clothing store for 2 months</li>
+                <li id="work2">Six weeks of interning as part of my vocational training program</li>
+            </ul>
+        </div>
+    <button id="btnSkills" onclick="mostrarMensaje('skills')">Skills</button>
+        <p id="skills" style="display: none;">hello</p>
+    </div>
+</main>
+
+<footer>
+    <div class="final">
+        <p id="footer-text">Gabriel Gutierrez Castro. All rights are reserved©️</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://github.com/lAIdrillin" target="_blank">
+                        <img src="images/github.png" alt="GitHub">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/gabriel-gutierrez-castro-b424772b6/" target="_blank">
+                        <img src="images/linkedin.png" alt="LinkedIn">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+<script src="scrpit.js"></script>
+</body>
+</html>
