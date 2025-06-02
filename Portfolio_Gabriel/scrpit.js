@@ -58,7 +58,7 @@ function cambiarIdioma(idioma) {
       btnWork: "Work experience",
       btnSkills: "Skills",
       name: "Name: Gabriel Gutierrez Castro",
-      mail: "Mail: ",
+      mail: "Mail: gabrielgcastro1809@gmail.com ",
       number: "Personal number: ",
       personal: "hello",
       edu1: "First Year in Higher Web Developer Technician",
@@ -66,7 +66,7 @@ function cambiarIdioma(idioma) {
       work1: "I have been interning in a clothing store for 2 months",
       work2: "Six weeks of interning as part of my vocational training program",
       skills: "hello",
-      footer: "Gabriel Gutierrez Castro. All rights are reserved"
+      footer: "Gabriel Gutierrez Castro. All rights are reserved©️"
     },
     es: {
       titulo: "Bienvenido a mi portafolio",
@@ -78,7 +78,7 @@ function cambiarIdioma(idioma) {
       btnWork: "Experiencia laboral",
       btnSkills: "Habilidades",
       name: "Nombre: Gabriel Gutierrez Castro",
-      mail: "Correo: ",
+      mail: "Correo: gabrielgcastro1809@gmail.com  ",
       number: "Teléfono: ",
       personal: "hola",
       edu1: "Primer año en Técnico Superior en Desarrollo Web",
@@ -86,7 +86,7 @@ function cambiarIdioma(idioma) {
       work1: "He estado de prácticas en una tienda de ropa durante 2 meses",
       work2: "Seis semanas de prácticas como parte de mi formación profesional",
       skills: "hola",
-      footer: "Gabriel Gutierrez Castro. Todos los derechos reservados"
+      footer: "Gabriel Gutierrez Castro. Todos los derechos reservados©️"
     }
   };
 
