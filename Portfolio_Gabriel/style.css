@@ -207,3 +207,20 @@ main {
   color: #00ffff;
   font-size: 1.1em;
 }
+body {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.boton p, .boton div, .boton li {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #00ffe7;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-style: normal;
+}
+
+.titulo h1, .bloque h2 {
+  color: #00ffe7;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
