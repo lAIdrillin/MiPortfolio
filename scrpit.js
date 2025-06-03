@@ -59,8 +59,7 @@ function cambiarIdioma(idioma) {
       btnSkills: "Skills",
       name: "Name: Gabriel Gutierrez Castro",
       mail: "Mail: gabrielgcastro1809@gmail.com ",
-      number: "Personal number: ",
-      personal: "hello",
+      personal: "I consider myself a collaborative person, willing to work as part of a team and always willing to help with whatever is needed.",
       edu1: "First Year in Higher Web Developer Technician",
       edu2: "Technician in Comercial Activities",
       work1: "I have been interning in a clothing store for 2 months",
@@ -81,8 +80,7 @@ function cambiarIdioma(idioma) {
       btnSkills: "Habilidades",
       name: "Nombre: Gabriel Gutierrez Castro",
       mail: "Correo: gabrielgcastro1809@gmail.com  ",
-      number: "Teléfono: ",
-      personal: "hola",
+      personal: "Me considero una persona colaborativa, con buena disposición para trabajar en equipo y siempre dispuesta a ayudar en lo que sea necesario.",
       edu1: "Primer año en Técnico Superior en Desarrollo Web",
       edu2: "Técnico en Actividades Comerciales",
       work1: "He estado de prácticas en una tienda de ropa durante 2 meses",
@@ -104,7 +102,6 @@ function cambiarIdioma(idioma) {
   document.getElementById('btnSkills').innerText = textos[idioma].btnSkills;
   document.getElementById('name').innerText = textos[idioma].name;
   document.getElementById('mail').innerText = textos[idioma].mail;
-  document.getElementById('number').innerText = textos[idioma].number;
   document.getElementById('personal').innerText = textos[idioma].personal;
   document.getElementById('edu1').innerText = textos[idioma].edu1;
   document.getElementById('edu2').innerText = textos[idioma].edu2;
