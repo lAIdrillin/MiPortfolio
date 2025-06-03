@@ -12,32 +12,56 @@ function verDetalle(proyecto){
     if(proyecto === 'memorion') {
         contenido = `
        <h2>Memorion</h2>
-       <p>Menu de inicio</p>
-      <img src="imagenes/juego_inicio.png" alt="Cartas" class="img-bloque">
-      <p>historial</p>
-      <img src="imagenes/juego_historial.png" alt="Cartas" class="img-bloque">
-      <p>Records</p>
-      <img src="imagenes/juego_records.png" alt="Cartas" class="img-bloque">
-      <p>Tablero</p>
-      <img src="imagenes/juego_tablero.png" alt="Cartas" class="img-bloque">
+  <div class="img-superpuesta">
+    <img src="imagenes/juego_inicio.png" alt="Cartas" class="img-bloque">
+    <span class="texto-superpuesto">Menu de inicio</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/juego_historial.png" alt="Cartas" class="img-bloque">
+    <span class="texto-superpuesto">Historial</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/juego_records.png" alt="Cartas" class="img-bloque">
+    <span class="texto-superpuesto">Records</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/juego_tablero.png" alt="Cartas" class="img-bloque">
+    <span class="texto-superpuesto">Tablero</span>
+  </div>
+  <a href="https://laidrillin.github.io/juego-mesa/" target="_blank" class="btn-probar">Probar</a>
+  <button onclick="volverAProyectos()">Volver</button>
     `;
     } else if (proyecto === 'calculadora'){
         contenido = `
         <h2>CalculadoraIp</h2>
-         <p>Menu de inicio</p>
-        <img src="imagenes/calculadora_inicio.png" alt="calculadora" class="img-bloque">
-        <p>Detalles de una ip</p>
-        <img src="imagenes/calculadora.png" alt="calculadora" class="img-bloque">
+  <div class="img-superpuesta">
+    <img src="imagenes/calculadora_inicio.png" alt="calculadora" class="img-bloque">
+    <span class="texto-superpuesto">Menu de inicio</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/calculadora.png" alt="calculadora" class="img-bloque">
+    <span class="texto-superpuesto">Detalles de una ip</span>
+  </div>
+  <a href="https://laidrillin.github.io/CalculaRedes/" target="_blank" class="btn-probar">Probar</a>
+  <button onclick="volverAProyectos()">Volver</button>
         `;
     } else if(proyecto === 'appmaps') {
         contenido = `
         <h2>AppMaps</h2>
-        <p>Menu de inicio</p>
-        <img src="imagenes/mapa1.png" alt="Mapa" class="img-bloque">
-        <p>Ejemplo mapa con marcadores en Madrid</p>
-        <img src="imagenes/mapa2.png" alt="Mapa" class="img-bloque">
-        <p>Detector de terremotos</p>
-        <img src="imagenes/terremoto.png" alt="Mapa" class="img-bloque">
+  <div class="img-superpuesta">
+    <img src="imagenes/mapa1.png" alt="Mapa" class="img-bloque">
+    <span class="texto-superpuesto">Menu de inicio</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/mapa2.png" alt="Mapa" class="img-bloque">
+    <span class="texto-superpuesto">Ejemplo mapa con marcadores en Madrid</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/terremoto.png" alt="Mapa" class="img-bloque">
+    <span class="texto-superpuesto">Detector de terremotos</span>
+  </div>
+  <a href="https://laidrillin.github.io/Google-maps/" target="_blank" class="btn-probar">Probar</a>
+  <button onclick="volverAProyectos()">Volver</button>
         `;
     }
 detalleDiv.innerHTML = contenido;
@@ -59,13 +83,14 @@ function cambiarIdioma(idioma) {
       btnSkills: "Skills",
       name: "Name: Gabriel Gutierrez Castro",
       mail: "Mail: gabrielgcastro1809@gmail.com ",
-      number: "Personal number: ",
-      personal: "hello",
+      personal: "I consider myself a collaborative person, willing to work as part of a team and always willing to help with whatever is needed.",
       edu1: "First Year in Higher Web Developer Technician",
       edu2: "Technician in Comercial Activities",
       work1: "I have been interning in a clothing store for 2 months",
       work2: "Six weeks of interning as part of my vocational training program",
-      skills: "hello",
+      skills1: "Visual Studio",
+      skills2: "GitHub",
+      skills3: "SQL",
       footer: "Gabriel Gutierrez Castro. All rights are reserved©️"
     },
     es: {
@@ -79,13 +104,14 @@ function cambiarIdioma(idioma) {
       btnSkills: "Habilidades",
       name: "Nombre: Gabriel Gutierrez Castro",
       mail: "Correo: gabrielgcastro1809@gmail.com  ",
-      number: "Teléfono: ",
-      personal: "hola",
+      personal: "Me considero una persona colaborativa, con buena disposición para trabajar en equipo y siempre dispuesta a ayudar en lo que sea necesario.",
       edu1: "Primer año en Técnico Superior en Desarrollo Web",
       edu2: "Técnico en Actividades Comerciales",
       work1: "He estado de prácticas en una tienda de ropa durante 2 meses",
       work2: "Seis semanas de prácticas como parte de mi formación profesional",
-      skills: "hola",
+      skills1: "Visual Studio",
+      skills2: "GitHub",
+      skills3: "SQL",
       footer: "Gabriel Gutierrez Castro. Todos los derechos reservados©️"
     }
   };
@@ -100,13 +126,14 @@ function cambiarIdioma(idioma) {
   document.getElementById('btnSkills').innerText = textos[idioma].btnSkills;
   document.getElementById('name').innerText = textos[idioma].name;
   document.getElementById('mail').innerText = textos[idioma].mail;
-  document.getElementById('number').innerText = textos[idioma].number;
   document.getElementById('personal').innerText = textos[idioma].personal;
   document.getElementById('edu1').innerText = textos[idioma].edu1;
   document.getElementById('edu2').innerText = textos[idioma].edu2;
   document.getElementById('work1').innerText = textos[idioma].work1;
   document.getElementById('work2').innerText = textos[idioma].work2;
-  document.getElementById('skills').innerText = textos[idioma].skills;
+  document.getElementById('skills1').innerText = textos[idioma].skills1;
+  document.getElementById('skills2').innerText = textos[idioma].skills2;
+  document.getElementById('skills3').innerText = textos[idioma].skills3;
   document.getElementById('footer-text').innerText = textos[idioma].footer;
 }
 

@@ -12,8 +12,12 @@
     <img src="imagenes/b38fc63ba586ac8b38cb406ed612aa98.jpg" alt="foto" class="foto-perfil">
     <h1>Welcome to my portfolio</h1>
     <div class="idioma-selector">
-        <button onclick="cambiarIdioma('es')">🇪🇸</button>
-        <button onclick="cambiarIdioma('en')">🇬🇧</button>
+        <button onclick="cambiarIdioma('es')">
+            <img src="imagenes/españa.png" alt="Español" width="32" height="24">
+        </button>
+        <button onclick="cambiarIdioma('en')">
+             <img src="imagenes/ingles.png" alt="Ingles" width="32" height="24">
+        </button>
     </div>
 </div>
 </header>
@@ -31,11 +35,12 @@
             <ul>
                 <li id="name">Name: Gabriel Gutierrez Castro</li>
                 <li id="mail">Mail: gabrielgcastro1809@gmail.com </li>
-                <li id="number">Personal number: </li>
             </ul>
         </div>
     <button id="btnStatement" onclick="mostrarMensaje('personal')">Personal statement</button>
-        <p id="personal" style="display: none;">hello</p>
+        <p id="personal" style="display: none;">
+            I consider myself a collaborative person, willing to work as part of a team and always willing to help with whatever is needed.
+        </p>
     <button id="btnEducation" onclick="mostrarMensaje('education')">Education</button>
         <div id="education" style="display: none;">
             <ul>
@@ -51,7 +56,13 @@
             </ul>
         </div>
     <button id="btnSkills" onclick="mostrarMensaje('skills')">Skills</button>
-        <p id="skills" style="display: none;">hello</p>
+        <div id="skills" style="display: none;">
+            <ul>
+                <li id="skills1">Visual Studio</li>
+                <li id="skills2">GitHub</li>
+                <li id="skills3">SQL</li>
+            </ul>
+        </div>
     </div>
 </main>
 
