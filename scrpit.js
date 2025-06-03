@@ -65,7 +65,9 @@ function cambiarIdioma(idioma) {
       edu2: "Technician in Comercial Activities",
       work1: "I have been interning in a clothing store for 2 months",
       work2: "Six weeks of interning as part of my vocational training program",
-      skills: "hello",
+      skills1: "Visual Studio",
+      skills2: "GitHub",
+      skills3: "SQL",
       footer: "Gabriel Gutierrez Castro. All rights are reserved©️"
     },
     es: {
@@ -85,7 +87,9 @@ function cambiarIdioma(idioma) {
       edu2: "Técnico en Actividades Comerciales",
       work1: "He estado de prácticas en una tienda de ropa durante 2 meses",
       work2: "Seis semanas de prácticas como parte de mi formación profesional",
-      skills: "hola",
+      skills1: "Visual Studio",
+      skills2: "GitHub",
+      skills3: "SQL",
       footer: "Gabriel Gutierrez Castro. Todos los derechos reservados©️"
     }
   };
@@ -106,7 +110,9 @@ function cambiarIdioma(idioma) {
   document.getElementById('edu2').innerText = textos[idioma].edu2;
   document.getElementById('work1').innerText = textos[idioma].work1;
   document.getElementById('work2').innerText = textos[idioma].work2;
-  document.getElementById('skills').innerText = textos[idioma].skills;
+  document.getElementById('skills1').innerText = textos[idioma].skills1;
+  document.getElementById('skills2').innerText = textos[idioma].skills2;
+  document.getElementById('skills3').innerText = textos[idioma].skills3;
   document.getElementById('footer-text').innerText = textos[idioma].footer;
 }
 
