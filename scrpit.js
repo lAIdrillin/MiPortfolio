@@ -12,6 +12,10 @@ function verDetalle(proyecto){
     if(proyecto === 'memorion') {
         contenido = `
        <h2>Memorion</h2>
+       <h3>Descripcion</h3>
+       <p>Juego de cartas tipo memory donde el objetivo es encontrar todas las parejas en el
+       menor tiempo posible. Desarrollado con HTML, CSS y JavaScript, incluye diferentes
+       niveles de dificultad, cronómetro, sistema de puntuación y una tabla con un record</p>
   <div class="img-superpuesta">
     <img src="imagenes/juego_inicio.png" alt="Cartas" class="img-bloque">
     <span class="texto-superpuesto">Menu de inicio</span>
@@ -34,6 +38,10 @@ function verDetalle(proyecto){
     } else if (proyecto === 'calculadora'){
         contenido = `
         <h2>CalculadoraIp</h2>
+        <h3>Descripcion</h3>
+        <p>Calculadora de direcciones IP que permite obtener datos como la dirección de red,
+        broadcast, máscara de subred, número de hosts y clase de red a partir de una IP y su
+        máscara. Desarrollada con HTML, CSS y JavaScript.</p>
   <div class="img-superpuesta">
     <img src="imagenes/calculadora_inicio.png" alt="calculadora" class="img-bloque">
     <span class="texto-superpuesto">Menu de inicio</span>
@@ -48,6 +56,12 @@ function verDetalle(proyecto){
     } else if(proyecto === 'appmaps') {
         contenido = `
         <h2>AppMaps</h2>
+        <h3>Descripcion</h3>
+        <p>Aplicación de mapas interactiva que permite al usuario añadir marcadores
+        personalizados en distintas ubicaciones y una opcion para detectar si hubo 
+        algun terremoto cerca o dentro de la peninsula iberica.Desarrollada con 
+        tecnologías web e integradacon APIs de mapas, ofrece una experiencia 
+        sencilla e intuitiva.</p>
   <div class="img-superpuesta">
     <img src="imagenes/mapa1.png" alt="Mapa" class="img-bloque">
     <span class="texto-superpuesto">Menu de inicio</span>
