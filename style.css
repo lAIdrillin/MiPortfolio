@@ -380,3 +380,13 @@ body {
   background: #00ffff;
   box-shadow: 0 0 8px #00ffe788;
 }
+.final a img[alt="instagram"] {
+  width: 38px;
+  height: 38px;
+  border: none;
+  /*background: #111;*/
+  border-radius: 8px;
+  transition: background 0.2s, box-shadow 0.2s;
+  margin-right: 6px;
+  vertical-align: middle;
+}
