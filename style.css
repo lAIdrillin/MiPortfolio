@@ -237,7 +237,7 @@ body {
   width: 650px;
   height: 650px;
   border-radius: 16px;
-  margin: 2px 0;
+  margin: 2px 0 2px 0;
   object-fit: contain;
   border:none;
   background: #111;
@@ -246,13 +246,14 @@ body {
 .detalle-proyecto-contenido h2 {
   color: #00ffe7;
   font-size: 2em;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
+  margin-top: 0;
 }
 
 .detalle-proyecto-contenido p {
   font-size: 1.15em;
   color: #00ffe7;
-  margin-bottom: 2px;
+  margin: 4px 0;
 }
 
 .detalle-proyecto-contenido button {
@@ -302,4 +303,46 @@ body {
 .idioma-selector button:focus img {
   border: 1.5px solid #00ffe7;
   box-shadow: 0 0 8px #00ffe788;
+}
+.img-superpuesta {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.img-superpuesta .img-bloque {
+  display: block;
+}
+
+.texto-superpuesto {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 100%;
+  color: #00ffe7;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 0 2px 8px #111, 0 0 4px #222;
+  text-align: center;
+  pointer-events: none;
+  /* Puedes ajustar top, font-size y color a tu gusto */
+}
+.btn-probar {
+  display: inline-block;
+  margin: 18px 10px 0 10px;
+  padding: 12px 32px;
+  background: #00ffff;
+  color: #222;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 1.1em;
+  border: 2px solid #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.btn-probar:hover {
+  background: #222;
+  color: #00ffff;
+  border: 2px solid #00ffff;
 }

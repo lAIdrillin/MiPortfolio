@@ -12,32 +12,56 @@ function verDetalle(proyecto){
     if(proyecto === 'memorion') {
         contenido = `
        <h2>Memorion</h2>
-       <p>Menu de inicio</p>
-      <img src="imagenes/juego_inicio.png" alt="Cartas" class="img-bloque">
-      <p>historial</p>
-      <img src="imagenes/juego_historial.png" alt="Cartas" class="img-bloque">
-      <p>Records</p>
-      <img src="imagenes/juego_records.png" alt="Cartas" class="img-bloque">
-      <p>Tablero</p>
-      <img src="imagenes/juego_tablero.png" alt="Cartas" class="img-bloque">
+  <div class="img-superpuesta">
+    <img src="imagenes/juego_inicio.png" alt="Cartas" class="img-bloque">
+    <span class="texto-superpuesto">Menu de inicio</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/juego_historial.png" alt="Cartas" class="img-bloque">
+    <span class="texto-superpuesto">Historial</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/juego_records.png" alt="Cartas" class="img-bloque">
+    <span class="texto-superpuesto">Records</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/juego_tablero.png" alt="Cartas" class="img-bloque">
+    <span class="texto-superpuesto">Tablero</span>
+  </div>
+  <a href="https://laidrillin.github.io/juego-mesa/" target="_blank" class="btn-probar">Probar</a>
+  <button onclick="volverAProyectos()">Volver</button>
     `;
     } else if (proyecto === 'calculadora'){
         contenido = `
         <h2>CalculadoraIp</h2>
-         <p>Menu de inicio</p>
-        <img src="imagenes/calculadora_inicio.png" alt="calculadora" class="img-bloque">
-        <p>Detalles de una ip</p>
-        <img src="imagenes/calculadora.png" alt="calculadora" class="img-bloque">
+  <div class="img-superpuesta">
+    <img src="imagenes/calculadora_inicio.png" alt="calculadora" class="img-bloque">
+    <span class="texto-superpuesto">Menu de inicio</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/calculadora.png" alt="calculadora" class="img-bloque">
+    <span class="texto-superpuesto">Detalles de una ip</span>
+  </div>
+  <a href="https://laidrillin.github.io/CalculaRedes/" target="_blank" class="btn-probar">Probar</a>
+  <button onclick="volverAProyectos()">Volver</button>
         `;
     } else if(proyecto === 'appmaps') {
         contenido = `
         <h2>AppMaps</h2>
-        <p>Menu de inicio</p>
-        <img src="imagenes/mapa1.png" alt="Mapa" class="img-bloque">
-        <p>Ejemplo mapa con marcadores en Madrid</p>
-        <img src="imagenes/mapa2.png" alt="Mapa" class="img-bloque">
-        <p>Detector de terremotos</p>
-        <img src="imagenes/terremoto.png" alt="Mapa" class="img-bloque">
+  <div class="img-superpuesta">
+    <img src="imagenes/mapa1.png" alt="Mapa" class="img-bloque">
+    <span class="texto-superpuesto">Menu de inicio</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/mapa2.png" alt="Mapa" class="img-bloque">
+    <span class="texto-superpuesto">Ejemplo mapa con marcadores en Madrid</span>
+  </div>
+  <div class="img-superpuesta">
+    <img src="imagenes/terremoto.png" alt="Mapa" class="img-bloque">
+    <span class="texto-superpuesto">Detector de terremotos</span>
+  </div>
+  <a href="https://laidrillin.github.io/Google-maps/" target="_blank" class="btn-probar">Probar</a>
+  <button onclick="volverAProyectos()">Volver</button>
         `;
     }
 detalleDiv.innerHTML = contenido;
