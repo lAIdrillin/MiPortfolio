@@ -391,3 +391,12 @@ body {
   margin-right: 6px;
   vertical-align: middle;
 }
+.descripcion-portfolio {
+  color: #8c00ff;
+  font-size: 1.45em;
+  margin: 12px auto 0 auto;
+  max-width: 600px;
+  text-align: center;
+  font-family: monospace;
+  opacity: 0.85;
+}
