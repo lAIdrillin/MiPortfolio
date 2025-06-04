@@ -392,11 +392,87 @@ body {
   vertical-align: middle;
 }
 .descripcion-portfolio {
-  color: #8c00ff;
+  color: #ffffff;
   font-size: 1.45em;
   margin: 12px auto 0 auto;
   max-width: 600px;
   text-align: center;
   font-family: monospace;
   opacity: 0.85;
+}
+/* --- Responsive Design --- */
+@media (max-width: 900px) {
+  .bloques {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .bloque {
+    width: 90vw;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .detalle-proyecto-contenido .img-bloque {
+    width: 90vw;
+    max-width: 400px;
+    height: auto;
+    min-width: 180px;
+    min-height: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  header, main, footer {
+    padding: 0 2vw;
+  }
+  .titulo h1 {
+    font-size: 1.2em;
+  }
+  nav a {
+    font-size: 1em;
+    padding: 8px 8px;
+  }
+  .foto-perfil {
+    width: 80px;
+    height: 80px;
+  }
+  .bloque {
+    padding: 10px;
+    font-size: 1em;
+  }
+  .img-bloque {
+    width: 80vw;
+    max-width: 260px;
+    height: auto;
+    min-width: 100px;
+    min-height: 100px;
+  }
+  .detalle-proyecto-contenido .img-bloque {
+    width: 80vw;
+    max-width: 260px;
+    height: auto;
+    min-width: 100px;
+    min-height: 100px;
+  }
+  .btn-probar, .detalle-proyecto-contenido button {
+    width: 90vw;
+    max-width: 320px;
+    font-size: 1em;
+    padding: 10px 0;
+  }
+  .final ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .final li {
+    display: block;
+    text-align: center;
+  }
+  .icon-label {
+    font-size: 0.95em;
+  }
+  .descripcion-portfolio {
+    font-size: 1em;
+    padding: 0 4vw;
+  }
 }
