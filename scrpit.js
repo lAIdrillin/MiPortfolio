@@ -87,7 +87,7 @@ function volverAProyectos(){
 function cambiarIdioma(idioma) {
   const textos = {
     en: {
-      titulo: "Welcome to my portfolio",
+      titulo: "¡Welcome to my portfolio!",
       navInicio: "Home",
       navProyectos: "Projects",
       btnDetails: "Personal details",
@@ -108,7 +108,7 @@ function cambiarIdioma(idioma) {
       footer: "Gabriel Gutierrez Castro. All rights are reserved©️"
     },
     es: {
-      titulo: "Bienvenido a mi portafolio",
+      titulo: "¡Bienvenid@s a mi portafolio!",
       navInicio: "Inicio",
       navProyectos: "Proyectos",
       btnDetails: "Datos personales",

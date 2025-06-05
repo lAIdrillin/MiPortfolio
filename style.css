@@ -476,3 +476,14 @@ body {
     padding: 0 4vw;
   }
 }
+.detalle-proyecto-contenido {
+  align-items: center;
+  text-align: center;
+}
+
+.detalle-proyecto-contenido .btn-probar,
+.detalle-proyecto-contenido button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
