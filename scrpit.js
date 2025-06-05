@@ -87,7 +87,7 @@ function volverAProyectos(){
 function cambiarIdioma(idioma) {
   const textos = {
     en: {
-      titulo: "¡Welcome to my portfolio!",
+      titulo: "¡Welcome to my portfolio!", 
       navInicio: "Home",
       navProyectos: "Projects",
       btnDetails: "Personal details",
